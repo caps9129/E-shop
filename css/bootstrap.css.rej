@@ -1,0 +1,10 @@
+diff a/Nitro Free Website Template - Free-CSS.com/nitro/css/bootstrap.css b/Nitro Free Website Template - Free-CSS.com/nitro/css/bootstrap.css	(rejected hunks)
+@@ -349,7 +349,7 @@
+ }
+ a:hover, a:focus {
+   color: #23527c;
+-  text-decoration: underline;
++  /*text-decoration: underline;*/
+ }
+ a:focus {
+   outline: thin dotted;
