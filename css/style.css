@@ -1092,6 +1092,9 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   .row-bottom-padded-lg {
     padding-bottom: 1em;
   }
+  .small-size {
+    font-size: inital;
+  }
 }
 
 .row-bottom-padded-md {
@@ -1120,5 +1123,16 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   border-style: groove;
   padding-top: 6%;
   margin: 10%;
+}
+/*下拉式選單*/
+.main{
+ 
+ /*background-color: #90a955;*/
+ color: #fff;
+}   
+.sub{
+ 
+ /*background-color: #ebf9de;*/
+ display: none;
 }
 /*# sourceMappingURL=style.css.map */
