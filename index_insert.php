@@ -106,8 +106,33 @@
 
 			<div class="fh5co-narrow-content">
 				<div class="row">
-
-					<?php include 'backstage_management_select.php';?>
+					<form name="form" method="post" action="insert.php">
+						
+						<div class="Data-Content">
+						    <div class="Data-Title">
+						        <div class="AlignRight">
+						            <label for="category">category：</label><br/>
+						            <label for="amount">amount：</label><br/>
+						            <label for="price">price：</label><br/>
+						            <label for="quality">quality：</label><br/>
+						            <label for="deadline">deadline：</label><br/>
+						        </div>
+						    </div>
+						    <div class="Data-Items">
+						        <input type="text" id="category" placeholder="category"/><br/>
+						        <input type="number" id="amount" placeholder="amount"/><br/>
+						        <input type="text" id="price" placeholder="price"/><br/>
+						        <input type="text" id="quality" placeholder="quality"/><br/>
+						        <input type="date" id="deadline" placeholder="date"/><br/>
+						        <input type="submit" value="send">
+								<input type="reset" value="reset">
+						    </div>
+						    
+						</div>
+								
+						 						
+					</form>
+					
 							
 				</div>
 					
@@ -166,4 +191,3 @@
 
 	</body>
 </html>
-

@@ -1077,11 +1077,28 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     visibility: visible;
   }
 }
-
+@media screen and (max-width: 1500px) {
+  label {
+    margin-bottom: 7%; 
+  }
+}
+@media screen and (max-width: 1200px) {
+  label {
+    margin-bottom: 11%; 
+  }
+} 
+@media screen and (max-width: 1024px) {
+  label {
+    margin-bottom: 9%; 
+  }
+} 
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
     float: none;
     width: 100%;
+  }
+  label {
+    margin-bottom: 16%; 
   }
 }
 
@@ -1136,3 +1153,36 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
  display: none;
 }
 /*# sourceMappingURL=style.css.map */
+.Data-Content {
+    width: 100%; /* 表單寬度 */
+    line-height: 40px;
+    margin: 10%;
+}
+
+.Data-Title {
+    float: left;
+    width: 25%; /* Label寬度，視情況調整 */
+    margin-right: 20px;
+}
+
+.Data-Items {
+    float: left;
+    /*width: 25%;*/
+}
+
+.AlignRight {
+    text-align: right;
+}
+/*placeholder*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #cecece;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #cecece;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #cecece;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #cecece;
+}

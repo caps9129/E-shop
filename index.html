@@ -72,10 +72,17 @@
 			<h1 id="fh5co-logo"><a href="index.html"><img src="images/logo.png" alt="Free HTML5 Bootstrap Website Template"></a></h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li class="fh5co-active"><a href="index.html">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="portfolio.html">Portfolio</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
+					<li><a href="contact.html">Member</a></li>
+					<li>
+						<div class="main"><a href="backstage_management.php">Management</a></div>
+						<div class="sub"><a href="index_insert.php">Add</a></div>
+						<div class="sub"><a href="index.html">Remove</a></div>
+						<div class="sub"><a href="index.html">Update</a></div>
+					</li>
 				</ul>
 			</nav>
 
@@ -97,7 +104,7 @@
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">We Love To Design <span>See Our Portfolio</span></h2>
 				<div class="row animate-box" data-animate-effect="fadeInLeft">
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work.html">
+						<a href="work.php">
 							<img src="images/oranges.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
 							<h3 class="fh5co-work-title">orange</h3>
 							<!--p>Illustration, Branding</p-->
@@ -315,7 +322,6 @@
 
 		</div>
 	</div>
-
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -330,7 +336,14 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
-	
+	<script type="text/javascript">
+		$("li").hover(
+			function() {
+			//toggle 像電燈般開闔物件
+			$(this).find(".sub").toggle();
+			}
+		);
+	</script>
 	
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
