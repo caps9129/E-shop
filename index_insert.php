@@ -119,11 +119,11 @@
 						        </div>
 						    </div>
 						    <div class="Data-Items">
-						        <input type="text" id="category" placeholder="category"/><br/>
-						        <input type="number" id="amount" placeholder="amount"/><br/>
-						        <input type="text" id="price" placeholder="price"/><br/>
-						        <input type="text" id="quality" placeholder="quality"/><br/>
-						        <input type="date" id="deadline" placeholder="date"/><br/>
+						        <input type="text" name="category" placeholder="category"/><br/>
+						        <input type="number" name="amount" placeholder="amount"/><br/>
+						        <input type="text" name="price" placeholder="price"/><br/>
+						        <input type="text" name="quality" placeholder="quality"/><br/>
+						        <input type="date" name="deadline" placeholder="date"/><br/>
 						        <input type="submit" value="send">
 								<input type="reset" value="reset">
 						    </div>
